@@ -86,6 +86,16 @@ BABYLON.SceneLoader.Load("", "assets/room.babylon", engine, function (scene) {
         } else {
           document.getElementById('Stoel').style.visibility = 'hidden';
         }
+        if (objectInfo == "Sphere.001"){
+          document.getElementById('Kom').style.visibility = 'visible';
+        } else {
+          document.getElementById('Kom').style.visibility = 'hidden';
+        }
+        if (objectInfo == "Cube.001"){
+          document.getElementById('Tafel').style.visibility = 'visible';
+        } else {
+          document.getElementById('Tafel').style.visibility = 'hidden';
+        }
     };	
 
 
