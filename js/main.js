@@ -49,9 +49,39 @@ BABYLON.SceneLoader.Load("", "assets/room.babylon", engine, function (scene) {
     engine.resize();
   });
 
+  
 
 
   // code sander
+
+      var prul = BABYLON.SceneLoader.ImportMesh("", "", "assets/fontys.babylon", scene, function (importedMeshes){
+        importedMeshes[0].position.x = 1;
+        importedMeshes[0].position.y = 4.2;
+
+        importedMeshes[1].position.x = 1;
+        importedMeshes[1].position.y = 4.2;
+
+        var bin = importedMeshes[0];
+        var binring = importedMeshes[1];
+        // bin.isVisible = false;
+        // binring.isVisible = false;
+
+        // var binMesh = BABYLON.Mesh.MergeMeshes([mesh1, mesh2, mesh3], true, false, undefined, false, true);
+        // binMesh.isVisible = false;
+
+
+        
+        //we can now select our new mesh
+        var bin = scene.getMeshByName("bin");
+        
+
+        //and add it to the shadowCaster
+        // shadowGenerator.addShadowCaster(bin);
+
+        console.log(newMeshes[0])
+
+
+    });
 
     // scene.debugLayer.show();
 
@@ -73,10 +103,18 @@ BABYLON.SceneLoader.Load("", "assets/room.babylon", engine, function (scene) {
             window.location.replace("../index.html");
           }
 
+          // var sword = scene.getMeshByName("Sword");
+
         if (objectInfo == "Cylinder.001" || objectInfo == "Sphere 2" || objectInfo == "Cube.004" || objectInfo == "Icosahedron" || objectInfo == "Sphere"){
           document.getElementById('Zwaard').style.visibility = 'visible';
         } else {
           document.getElementById('Zwaard').style.visibility = 'hidden';
+        }
+
+        if (objectInfo == "prul-c1" || objectInfo == "prul-c2"){
+          document.getElementById('Bin').style.visibility = 'visible';
+        } else {
+          document.getElementById('Bin').style.visibility = 'hidden';
         }
 
         if (objectInfo == "Cube 2" || objectInfo == "Cylinder copy 2.001" || objectInfo == "Cylinder copy 2" || objectInfo == "Cylinder copy" || objectInfo == "Cylinder" || objectInfo == "Cube.002"){
