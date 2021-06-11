@@ -27,19 +27,8 @@ BABYLON.SceneLoader.Load("", "assets/room.babylon", engine, function (scene) {
   scene.clearColor = new BABYLON.Color3(1, 1, 1);
   scene.ambientColor = new BABYLON.Color3.White();
 
-  var light = new BABYLON.HemisphericLight(
-    "hemiLight",
-    new BABYLON.Vector3(0, 0, 100),
-    scene
-  );
 
-  // var dirLight = new BABYLON.DirectionalLight(
-  //   "dirLight",
-  //   new BABYLON.Vector3(1, -1, 1),
-  //   scene
-  // );
-  // dirLight.diffuse = new BABYLON.Color3(1, 1, 0.98);
-  // dirLight.position = new BABYLON.Vector3(-100, 100, -100);
+  var light = new BABYLON.HemisphericLight("hemiLight", new BABYLON.Vector3(-1, 1, 0), scene);
 
   engine.runRenderLoop(function () {
     scene.render();
