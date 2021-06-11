@@ -73,20 +73,18 @@ BABYLON.SceneLoader.Load("", "assets/room.babylon", engine, function (scene) {
             window.location.replace("../index.html");
           }
 
-          var sword = scene.getMeshByName("Sword");
-
-        if (objectInfo == "Cylinder.001"){
+        if (objectInfo == "Cylinder.001" || objectInfo == "Sphere 2" || objectInfo == "Cube.004" || objectInfo == "Icosahedron" || objectInfo == "Sphere"){
           document.getElementById('Zwaard').style.visibility = 'visible';
         } else {
           document.getElementById('Zwaard').style.visibility = 'hidden';
         }
 
-        if (objectInfo == "Cube 2"){
+        if (objectInfo == "Cube 2" || objectInfo == "Cylinder copy 2.001" || objectInfo == "Cylinder copy 2" || objectInfo == "Cylinder copy" || objectInfo == "Cylinder" || objectInfo == "Cube.002"){
           document.getElementById('Stoel').style.visibility = 'visible';
         } else {
           document.getElementById('Stoel').style.visibility = 'hidden';
         }
-        if (objectInfo == "Sphere.001"){
+        if (objectInfo == "Sphere.001" || objectInfo == "Cylinder.002" || objectInfo == "Text" || objectInfo == "Text.002"){
           document.getElementById('Kom').style.visibility = 'visible';
         } else {
           document.getElementById('Kom').style.visibility = 'hidden';
