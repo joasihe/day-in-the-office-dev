@@ -2,35 +2,51 @@ var canvas = document.getElementById("canvas");
 var engine = new BABYLON.Engine(canvas, true);
 
 // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
-BABYLON.SceneLoader.Load("", "assets/room.babylon", engine, function (scene) {
+BABYLON.SceneLoader.Load("", "assets/bierensroom.babylon", engine, function (scene) {
   // Need a free camera for collisions
-  var camera = new BABYLON.UniversalCamera(
-    "FreeCamera",
-    new BABYLON.Vector3(0, 10, 0),
-    scene
-  );
-  camera.attachControl(canvas, true);
-  camera.speed = 0.2;
+  // var camera = new BABYLON.UniversalCamera(
+  //   "FreeCamera",
+  //   new BABYLON.Vector3(10, 4, 20),
+  //   scene
+  // );
+  // camera.attachControl(canvas, true);
+  
 
-  //Set gravity for the scene (G force like, on Y-axis)
-  scene.gravity = new BABYLON.Vector3(0, -0.9, 0);
 
-  // Enable Collisions
-  scene.collisionsEnabled = true;
+  // //Set gravity for the scene (G force like, on Y-axis)
+  // scene.gravity = new BABYLON.Vector3(0, -0.9, 0);
 
-  //Then apply collisions and gravity to the active camera
+  // // Enable Collisions
+  // scene.collisionsEnabled = true;
+
+  // //Then apply collisions and gravity to the active camera
+  // camera.checkCollisions = true;
+  // camera.applyGravity = true;
+
+
+  // Parameters : name, position, scene
+  var camera = new BABYLON.UniversalCamera("UniversalCamera", new BABYLON.Vector3(0, 1, 10), scene);
+
+  // Targets the camera to a particular position. In this case the scene origin
+  camera.setTarget(BABYLON.Vector3.Zero());
+
+  // Attach the camera to the canvas
+  camera.applyGravity = false;
+  camera.ellipsoid = new BABYLON.Vector3(.4, .8, .4);
   camera.checkCollisions = true;
-  camera.applyGravity = true;
+  camera.attachControl(canvas, true); 
+  camera.speed = 0.6;
 
   //Set the ellipsoid around the camera (e.g. your player's size)
-  camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
-  scene.clearColor = new BABYLON.Color3(1, 1, 1);
-  scene.ambientColor = new BABYLON.Color3.White();
+  // camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
+  // scene.clearColor = new BABYLON.Color3(1, 1, 1);
+  // scene.ambientColor = new BABYLON.Color3.White();
 
 
-  var light = new BABYLON.HemisphericLight("hemiLight", new BABYLON.Vector3(-1, 1, 0), scene);
+  var light = new BABYLON.HemisphericLight("hemiLight", new BABYLON.Vector3(1, 10, 15), scene);
 
   engine.runRenderLoop(function () {
+    camera.position.y=1;
     scene.render();
   });
 

@@ -1,0 +1,1699 @@
+Exporter version: 2.80.1, Blender version: 2.92.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  /Users/sametyalcin/Documents/Fontys/Fontys ICT semester 6/Bierens Group/code/3D room/day-in-the-office-dev/assets/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of node:  labequipment
+	processing begun of node:  Empty Object copy 18
+	processing begun of mesh:  35_Coca_Cola_can
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  65766
+		num normals        :  65766
+		num tangents       :  263064
+		num uvs            :  131532
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  21922
+	processing begun of node:  Empty Object copy 17
+	processing begun of mesh:  botton BUN
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4225
+		num normals        :  4225
+		num tangents       :  16900
+		num uvs            :  8450
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8192
+		WARNING: # of 0 area faces found:  64
+	processing begun of mesh:  top BUN
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4225
+		num normals        :  4225
+		num tangents       :  16900
+		num uvs            :  8450
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8192
+		WARNING: # of 0 area faces found:  64
+	processing begun of mesh:  meat
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  7865
+		num normals        :  7865
+		num tangents       :  31460
+		num uvs            :  15730
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  15360
+		WARNING: # of 0 area faces found:  240
+	processing begun of mesh:  ketchup
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  7865
+		num normals        :  7865
+		num tangents       :  31460
+		num uvs            :  15730
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  15360
+		WARNING: # of 0 area faces found:  240
+	processing begun of mesh:  lettuce
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  7865
+		num normals        :  7865
+		num tangents       :  31460
+		num uvs            :  15730
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  15360
+		WARNING: # of 0 area faces found:  240
+	processing begun of mesh:  cheese
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  7865
+		num normals        :  7865
+		num tangents       :  31460
+		num uvs            :  15730
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  15360
+		WARNING: # of 0 area faces found:  240
+	processing begun of mesh:  seeds 1
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4223
+		num normals        :  4223
+		num tangents       :  16892
+		num uvs            :  8446
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8064
+	processing begun of mesh:  seeds 2
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4223
+		num normals        :  4223
+		num tangents       :  16892
+		num uvs            :  8446
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8064
+	processing begun of mesh:  Eye Left
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1751
+		num normals        :  1751
+		num tangents       :  7004
+		num uvs            :  3502
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  832
+	processing begun of mesh:  Eye Right
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1751
+		num normals        :  1751
+		num tangents       :  7004
+		num uvs            :  3502
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  832
+	processing begun of node:  Empty Object copy 16
+	processing begun of mesh:  Sphere 2
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4224
+		num normals        :  4224
+		num tangents       :  16896
+		num uvs            :  8448
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8128
+	processing begun of node:  Sword
+	processing begun of mesh:  Sphere
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4223
+		num normals        :  4223
+		num tangents       :  16892
+		num uvs            :  8446
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8064
+	processing begun of mesh:  Icosahedron
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  240
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  Cube
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  600
+		num normals        :  600
+		num tangents       :  2400
+		num uvs            :  1200
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  716
+		WARNING: # of 0 area faces found:  72
+	processing begun of mesh:  Cylinder
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  389
+		num normals        :  389
+		num tangents       :  1556
+		num uvs            :  778
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  576
+		WARNING: # of 0 area faces found:  320
+	processing begun of mesh:  Cone
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1154
+		num normals        :  1154
+		num tangents       :  4616
+		num uvs            :  2308
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2080
+		WARNING: # of 0 area faces found:  32
+	processing begun of node:  EmptyObject
+	processing begun of mesh:  group_0_2826530
+		WARNING: No materials have been assigned: 
+		num positions      :  57036
+		num normals        :  57036
+		num tangents       :  228144
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  19012
+		WARNING: # of 0 area faces found:  1
+	processing begun of mesh:  group_0_14860437
+		WARNING: No materials have been assigned: 
+		num positions      :  100362
+		num normals        :  100362
+		num tangents       :  401448
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  33454
+		WARNING: # of 0 area faces found:  1
+	processing begun of mesh:  group_0_15277357
+		WARNING: No materials have been assigned: 
+		num positions      :  37593
+		num normals        :  37593
+		num tangents       :  150372
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12531
+	processing begun of mesh:  group_0_16448250
+		WARNING: No materials have been assigned: 
+		num positions      :  84
+		num normals        :  84
+		num tangents       :  336
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0_16766720
+		WARNING: No materials have been assigned: 
+		num positions      :  135
+		num normals        :  135
+		num tangents       :  540
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  45
+	processing begun of node:  prul
+	processing begun of mesh:  prul-c2_prul-c1
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  41472
+		num normals        :  41472
+		num tangents       :  165888
+		num uvs            :  82944
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  13824
+	processing begun of mesh:  prul-c1_prul-c2
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  25416
+		num normals        :  25416
+		num tangents       :  101664
+		num uvs            :  50832
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8472
+	processing begun of node:  Empty Object copy 15
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic
+	processing begun of mesh:  Box008
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 15.001
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.001
+	processing begun of mesh:  Box008.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 14
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.002
+	processing begun of mesh:  Box008.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 13
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.003
+	processing begun of mesh:  Box008.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 12
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.004
+	processing begun of mesh:  Box008.004
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.004
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 11
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.005
+	processing begun of mesh:  Box008.005
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.005
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 11.001
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.006
+	processing begun of mesh:  Box008.006
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.006
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 11.002
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.007
+	processing begun of mesh:  Box008.007
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.007
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 11.003
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.008
+	processing begun of mesh:  Box008.008
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.008
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 11.004
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.009
+	processing begun of mesh:  Box008.009
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.009
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 10
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.010
+	processing begun of mesh:  Box008.010
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.010
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 10.001
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.011
+	processing begun of mesh:  Box008.011
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.011
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 9
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.012
+	processing begun of mesh:  Box008.012
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.012
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 8
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.013
+	processing begun of mesh:  Box008.013
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.013
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  Empty Object copy 7
+	processing begun of node:  uploads_files_1842161_dantonehome+Brighton+classic.014
+	processing begun of mesh:  Box008.014
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3480
+		num normals        :  3480
+		num tangents       :  13920
+		num uvs            :  6960
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1160
+	processing begun of mesh:  Plane009.014
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  79995
+		num normals        :  79995
+		num tangents       :  319980
+		num uvs            :  159990
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26665
+	processing begun of node:  EmptyObject.001
+	processing begun of mesh:  group_0_7720667
+		WARNING: No materials have been assigned: 
+		num positions      :  36954
+		num normals        :  36954
+		num tangents       :  147816
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12318
+	processing begun of mesh:  group_0_15277357.001
+		WARNING: No materials have been assigned: 
+		num positions      :  58083
+		num normals        :  58083
+		num tangents       :  232332
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  19361
+	processing begun of mesh:  group_0_16448250.001
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_16768282
+		WARNING: No materials have been assigned: 
+		num positions      :  19263
+		num normals        :  19263
+		num tangents       :  77052
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6421
+	processing begun of node:  EmptyObject.002
+	processing begun of mesh:  VolleyBall
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  88128
+		num normals        :  88128
+		num tangents       :  352512
+		num uvs            :  176256
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  29376
+	processing begun of node:  EmptyObject.003
+	processing begun of mesh:  group_0_40919
+		WARNING: No materials have been assigned: 
+		num positions      :  24942
+		num normals        :  24942
+		num tangents       :  99768
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8314
+		WARNING: # of 0 area faces found:  36
+	processing begun of mesh:  group_0_1650274
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_1855578
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_2829873
+		WARNING: No materials have been assigned: 
+		num positions      :  9288
+		num normals        :  9288
+		num tangents       :  37152
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3096
+		WARNING: # of 0 area faces found:  9
+	processing begun of mesh:  group_0_4634441
+		WARNING: No materials have been assigned: 
+		num positions      :  2976
+		num normals        :  2976
+		num tangents       :  11904
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  992
+		WARNING: # of 0 area faces found:  5
+	processing begun of mesh:  group_0_6306067
+		WARNING: No materials have been assigned: 
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  group_0_6383466
+		WARNING: No materials have been assigned: 
+		num positions      :  1050
+		num normals        :  1050
+		num tangents       :  4200
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  350
+	processing begun of mesh:  group_0_8273816
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_9771553
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_10988977
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_11107152
+		WARNING: No materials have been assigned: 
+		num positions      :  597
+		num normals        :  597
+		num tangents       :  2388
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  199
+	processing begun of mesh:  group_0_11593967
+		WARNING: No materials have been assigned: 
+		num positions      :  36
+		num normals        :  36
+		num tangents       :  144
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_0_13165757
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_13877221
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_14541540
+		WARNING: No materials have been assigned: 
+		num positions      :  18114
+		num normals        :  18114
+		num tangents       :  72456
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6038
+		WARNING: # of 0 area faces found:  12
+	processing begun of mesh:  group_0_14860437.001
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_14900002
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_15277357.002
+		WARNING: No materials have been assigned: 
+		num positions      :  9192
+		num normals        :  9192
+		num tangents       :  36768
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3064
+		WARNING: # of 0 area faces found:  25
+	processing begun of mesh:  group_0_15308428
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_15708628
+		WARNING: No materials have been assigned: 
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  72
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  group_0_16311991
+		WARNING: No materials have been assigned: 
+		num positions      :  54
+		num normals        :  54
+		num tangents       :  216
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_0_16448250.002
+		WARNING: No materials have been assigned: 
+		num positions      :  88065
+		num normals        :  88065
+		num tangents       :  352260
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  29355
+		WARNING: # of 0 area faces found:  97
+	processing begun of mesh:  group_0_16768282.001
+		WARNING: No materials have been assigned: 
+		num positions      :  5916
+		num normals        :  5916
+		num tangents       :  23664
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1972
+		WARNING: # of 0 area faces found:  10
+	processing begun of mesh:  group_0_-1028593425
+		WARNING: No materials have been assigned: 
+		num positions      :  36
+		num normals        :  36
+		num tangents       :  144
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  Empty Object copy 6
+	processing begun of mesh:  door_01_old
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  2688
+		num normals        :  2688
+		num tangents       :  10752
+		num uvs            :  5376
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  896
+	processing begun of node:  colored_door
+	processing begun of mesh:  door_01_old.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  2688
+		num normals        :  2688
+		num tangents       :  10752
+		num uvs            :  5376
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  896
+	processing begun of node:  Empty Object copy 5
+	processing begun of mesh:  Sander en Frits bierens-zw
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  16
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Group_013
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1746
+		num normals        :  1746
+		num tangents       :  6984
+		num uvs            :  3492
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  582
+	processing begun of mesh:  Group_012
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  36
+		num normals        :  36
+		num tangents       :  144
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Group_011
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1860
+		num normals        :  1860
+		num tangents       :  7440
+		num uvs            :  3720
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  620
+	processing begun of mesh:  Group_010
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  576
+		num normals        :  576
+		num tangents       :  2304
+		num uvs            :  1152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  192
+	processing begun of mesh:  Group_009
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  576
+		num normals        :  576
+		num tangents       :  2304
+		num uvs            :  1152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  192
+	processing begun of mesh:  Group_007
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1245
+		num normals        :  1245
+		num tangents       :  4980
+		num uvs            :  2490
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  415
+	processing begun of mesh:  Group_005
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1245
+		num normals        :  1245
+		num tangents       :  4980
+		num uvs            :  2490
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  415
+	processing begun of mesh:  Group_004
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3996
+		num normals        :  3996
+		num tangents       :  15984
+		num uvs            :  7992
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1332
+	processing begun of mesh:  Group_003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3996
+		num normals        :  3996
+		num tangents       :  15984
+		num uvs            :  7992
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1332
+	processing begun of mesh:  Group_002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3996
+		num normals        :  3996
+		num tangents       :  15984
+		num uvs            :  7992
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1332
+	processing begun of mesh:  Group_001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  3996
+		num normals        :  3996
+		num tangents       :  15984
+		num uvs            :  7992
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1332
+	processing begun of node:  Empty Object copy 4
+	processing begun of node:  Empty Object 2
+	processing begun of mesh:  Cube.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  600
+		num normals        :  600
+		num tangents       :  2400
+		num uvs            :  1200
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  716
+	processing begun of mesh:  Cube.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  600
+		num normals        :  600
+		num tangents       :  2400
+		num uvs            :  1200
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  716
+	processing begun of mesh:  Cube.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  600
+		num normals        :  600
+		num tangents       :  2400
+		num uvs            :  1200
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  716
+	processing begun of mesh:  Cube.004
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  600
+		num normals        :  600
+		num tangents       :  2400
+		num uvs            :  1200
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  716
+	processing begun of node:  Empty Object
+	processing begun of mesh:  Cylinder.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  6760
+		num normals        :  6760
+		num tangents       :  27040
+		num uvs            :  13520
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  13312
+		WARNING: # of 0 area faces found:  768
+	processing begun of mesh:  Sphere.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4224
+		num normals        :  4224
+		num tangents       :  16896
+		num uvs            :  8448
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8128
+	processing begun of mesh:  Cube copy
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  96
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cube.005
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  96
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  Empty Object copy 3
+	processing begun of mesh:  Cylinder 4
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  389
+		num normals        :  389
+		num tangents       :  1556
+		num uvs            :  778
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  576
+		WARNING: # of 0 area faces found:  320
+	processing begun of mesh:  Cylinder 3
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  389
+		num normals        :  389
+		num tangents       :  1556
+		num uvs            :  778
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  576
+		WARNING: # of 0 area faces found:  320
+	processing begun of mesh:  Torus
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  5265
+		num normals        :  5265
+		num tangents       :  21060
+		num uvs            :  10530
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10364
+	processing begun of mesh:  Sphere.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  4223
+		num normals        :  4223
+		num tangents       :  16892
+		num uvs            :  8446
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8064
+	processing begun of node:  Empty Object copy 2
+	processing begun of node:  Empty Object copy
+	processing begun of mesh:  Rectangle copy 4
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 3
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 2
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Cylinder copy 6
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 5
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 4
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder 4.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Rectangle 4
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  34308
+		num normals        :  34308
+		num tangents       :  137232
+		num uvs            :  68616
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  11436
+	processing begun of node:  Empty Object.001
+	processing begun of mesh:  Rectangle copy 4.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 3.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 2.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Cylinder copy 6.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 5.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 4.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder 4.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of node:  Empty Object copy.001
+	processing begun of node:  Empty Object copy.002
+	processing begun of mesh:  Rectangle copy 4.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 3.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 2.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Cylinder copy 6.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 5.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 4.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder 4.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Rectangle 4.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  34308
+		num normals        :  34308
+		num tangents       :  137232
+		num uvs            :  68616
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  11436
+	processing begun of node:  Empty Object.002
+	processing begun of mesh:  Rectangle copy 4.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 3.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle copy 2.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Rectangle.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  1296
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  108
+	processing begun of mesh:  Cylinder copy 6.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 5.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder copy 4.003
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of mesh:  Cylinder 4.004
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1559
+		num normals        :  1559
+		num tangents       :  6236
+		num uvs            :  3118
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2880
+		WARNING: # of 0 area faces found:  576
+	processing begun of node:  Empty Object 2.001
+	processing begun of mesh:  Beaker_Cylinder
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  18048
+		num normals        :  18048
+		num tangents       :  72192
+		num uvs            :  36096
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6016
+	processing begun of mesh:  Cone.001
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  1154
+		num normals        :  1154
+		num tangents       :  4616
+		num uvs            :  2308
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2080
+		WARNING: # of 0 area faces found:  32
+	processing begun of node:  Empty Object.003
+	processing begun of mesh:  Flask_Cone
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  18048
+		num normals        :  18048
+		num tangents       :  72192
+		num uvs            :  36096
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6016
+	processing begun of mesh:  Cylinder.002
+		WARNING: No materials have been assigned: 
+		Custom split normals with tangents being used
+		num positions      :  389
+		num normals        :  389
+		num tangents       :  1556
+		num uvs            :  778
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  576
+		WARNING: # of 0 area faces found:  320
+	processing begun of light (DIRECTIONAL):  Default Directional Light
+========= Writing of JSON file started =========
+	writing mesh:  35_Coca_Cola_can
+	writing mesh:  botton BUN
+	writing mesh:  top BUN
+	writing mesh:  meat
+	writing mesh:  ketchup
+	writing mesh:  lettuce
+	writing mesh:  cheese
+	writing mesh:  seeds 1
+	writing mesh:  seeds 2
+	writing mesh:  Eye Left
+	writing mesh:  Eye Right
+	writing mesh:  Sphere 2
+	writing mesh:  Sphere
+	writing mesh:  Icosahedron
+	writing mesh:  Cube
+	writing mesh:  Cylinder
+	writing mesh:  Cone
+	writing mesh:  group_0_2826530
+	writing mesh:  group_0_14860437
+	writing mesh:  group_0_15277357
+	writing mesh:  group_0_16448250
+	writing mesh:  group_0_16766720
+	writing mesh:  prul-c2_prul-c1
+	writing mesh:  prul-c1_prul-c2
+	writing mesh:  Box008
+	writing mesh:  Plane009
+	writing mesh:  Box008.001
+	writing mesh:  Plane009.001
+	writing mesh:  Box008.002
+	writing mesh:  Plane009.002
+	writing mesh:  Box008.003
+	writing mesh:  Plane009.003
+	writing mesh:  Box008.004
+	writing mesh:  Plane009.004
+	writing mesh:  Box008.005
+	writing mesh:  Plane009.005
+	writing mesh:  Box008.006
+	writing mesh:  Plane009.006
+	writing mesh:  Box008.007
+	writing mesh:  Plane009.007
+	writing mesh:  Box008.008
+	writing mesh:  Plane009.008
+	writing mesh:  Box008.009
+	writing mesh:  Plane009.009
+	writing mesh:  Box008.010
+	writing mesh:  Plane009.010
+	writing mesh:  Box008.011
+	writing mesh:  Plane009.011
+	writing mesh:  Box008.012
+	writing mesh:  Plane009.012
+	writing mesh:  Box008.013
+	writing mesh:  Plane009.013
+	writing mesh:  Box008.014
+	writing mesh:  Plane009.014
+	writing mesh:  group_0_7720667
+	writing mesh:  group_0_15277357.001
+	writing mesh:  group_0_16448250.001
+	writing mesh:  group_0_16768282
+	writing mesh:  VolleyBall
+	writing mesh:  group_0_40919
+	writing mesh:  group_0_1650274
+	writing mesh:  group_0_1855578
+	writing mesh:  group_0_2829873
+	writing mesh:  group_0_4634441
+	writing mesh:  group_0_6306067
+	writing mesh:  group_0_6383466
+	writing mesh:  group_0_8273816
+	writing mesh:  group_0_9771553
+	writing mesh:  group_0_10988977
+	writing mesh:  group_0_11107152
+	writing mesh:  group_0_11593967
+	writing mesh:  group_0_13165757
+	writing mesh:  group_0_13877221
+	writing mesh:  group_0_14541540
+	writing mesh:  group_0_14860437.001
+	writing mesh:  group_0_14900002
+	writing mesh:  group_0_15277357.002
+	writing mesh:  group_0_15308428
+	writing mesh:  group_0_15708628
+	writing mesh:  group_0_16311991
+	writing mesh:  group_0_16448250.002
+	writing mesh:  group_0_16768282.001
+	writing mesh:  group_0_-1028593425
+	writing mesh:  door_01_old
+	writing mesh:  door_01_old.001
+	writing mesh:  Sander en Frits bierens-zw
+	writing mesh:  Group_013
+	writing mesh:  Group_012
+	writing mesh:  Group_011
+	writing mesh:  Group_010
+	writing mesh:  Group_009
+	writing mesh:  Group_007
+	writing mesh:  Group_005
+	writing mesh:  Group_004
+	writing mesh:  Group_003
+	writing mesh:  Group_002
+	writing mesh:  Group_001
+	writing mesh:  Cube.001
+	writing mesh:  Cube.002
+	writing mesh:  Cube.003
+	writing mesh:  Cube.004
+	writing mesh:  Cylinder.001
+	writing mesh:  Sphere.001
+	writing mesh:  Cube copy
+	writing mesh:  Cube.005
+	writing mesh:  Cylinder 4
+	writing mesh:  Cylinder 3
+	writing mesh:  Torus
+	writing mesh:  Sphere.002
+	writing mesh:  Rectangle copy 4
+	writing mesh:  Rectangle copy 3
+	writing mesh:  Rectangle copy 2
+	writing mesh:  Rectangle
+	writing mesh:  Cylinder copy 6
+	writing mesh:  Cylinder copy 5
+	writing mesh:  Cylinder copy 4
+	writing mesh:  Cylinder 4.001
+	writing mesh:  Rectangle 4
+	writing mesh:  Rectangle copy 4.001
+	writing mesh:  Rectangle copy 3.001
+	writing mesh:  Rectangle copy 2.001
+	writing mesh:  Rectangle.001
+	writing mesh:  Cylinder copy 6.001
+	writing mesh:  Cylinder copy 5.001
+	writing mesh:  Cylinder copy 4.001
+	writing mesh:  Cylinder 4.002
+	writing mesh:  Rectangle copy 4.002
+	writing mesh:  Rectangle copy 3.002
+	writing mesh:  Rectangle copy 2.002
+	writing mesh:  Rectangle.002
+	writing mesh:  Cylinder copy 6.002
+	writing mesh:  Cylinder copy 5.002
+	writing mesh:  Cylinder copy 4.002
+	writing mesh:  Cylinder 4.003
+	writing mesh:  Rectangle 4.001
+	writing mesh:  Rectangle copy 4.003
+	writing mesh:  Rectangle copy 3.003
+	writing mesh:  Rectangle copy 2.003
+	writing mesh:  Rectangle.003
+	writing mesh:  Cylinder copy 6.003
+	writing mesh:  Cylinder copy 5.003
+	writing mesh:  Cylinder copy 4.003
+	writing mesh:  Cylinder 4.004
+	writing mesh:  Beaker_Cylinder
+	writing mesh:  Cone.001
+	writing mesh:  Flask_Cone
+	writing mesh:  Cylinder.002
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  4 min, 5.5757 secs

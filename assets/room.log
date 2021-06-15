@@ -9,7 +9,7 @@ Exporter version: 2.80.1, Blender version: 2.92.0
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  /Users/joasihe/sites/day-in-the-office-dev/assets/
+		Texture directory   :  /Users/sametyalcin/Documents/Fontys/Fontys ICT semester 6/Bierens Group/code/3D room/day-in-the-office-dev/assets/
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
 	processing begun of mesh:  Cube 2
@@ -267,7 +267,18 @@ Exporter version: 2.80.1, Blender version: 2.92.0
 		num colors         :  0
 		num triangles      :  12
 	processing begun of mesh:  Cube
-		processing begun of material:  Material.001
+		processing begun of material:  Wood vanished
+			WARNING: unsupported node type(ShaderNodeInvert) will trigger baking
+			WARNING: unsupported node type(ShaderNodeCombineRGB) will trigger baking
+			processing texture wood_vanished_Normal
+				texture type:  bumpTexture, mapped using: "automap"
+			processing texture wood_vanished_BaseColor
+				texture type:  diffuseTexture, mapped using: "automap"
+			processing texture wood_vanished_Metallic
+				texture type:  metallicTexture, mapped using: "automap"
+			processing texture wood_vanished_Roughness
+				texture type:  value not meaningful 2, mapped using: "automap"
+			bake time:  0 min, 0.0076 secs
 		num positions      :  30
 		num normals        :  30
 		num tangents       :  0
@@ -313,6 +324,15 @@ Exporter version: 2.80.1, Blender version: 2.92.0
 		num triangles      :  12
 	processing begun of node:  Chair.002
 	processing begun of node:  Chair.001
+	processing begun of mesh:  Cube.008
+		processing begun of material:  Material.005
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
 	processing begun of light (DIRECTIONAL):  Sun
 ========= Writing of JSON file started =========
 	writing mesh:  Cube 2
@@ -343,6 +363,7 @@ Exporter version: 2.80.1, Blender version: 2.92.0
 	writing mesh:  Wall
 	writing mesh:  Wall.001
 	writing mesh:  Wall.002
+	writing mesh:  Cube.008
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 3.5087 secs
+elapsed time:  0 min, 3.9441 secs
