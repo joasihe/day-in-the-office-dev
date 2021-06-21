@@ -3,25 +3,7 @@ var engine = new BABYLON.Engine(canvas, true);
 
 // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
 BABYLON.SceneLoader.Load("", "assets/bierensroom.babylon", engine, function (scene) {
-  // Need a free camera for collisions
-  // var camera = new BABYLON.UniversalCamera(
-  //   "FreeCamera",
-  //   new BABYLON.Vector3(10, 4, 20),
-  //   scene
-  // );
-  // camera.attachControl(canvas, true);
-  
 
-
-  // //Set gravity for the scene (G force like, on Y-axis)
-  // scene.gravity = new BABYLON.Vector3(0, -0.9, 0);
-
-  // // Enable Collisions
-  // scene.collisionsEnabled = true;
-
-  // //Then apply collisions and gravity to the active camera
-  // camera.checkCollisions = true;
-  // camera.applyGravity = true;
 
 
   // Parameters : name, position, scene
@@ -43,10 +25,10 @@ BABYLON.SceneLoader.Load("", "assets/bierensroom.babylon", engine, function (sce
   // scene.ambientColor = new BABYLON.Color3.White();
 
 
-  var light = new BABYLON.HemisphericLight("hemiLight", new BABYLON.Vector3(1, 10, 15), scene);
+  var light = new BABYLON.HemisphericLight("hemiLight", new BABYLON.Vector3(5, 10, 15), scene);
 
   engine.runRenderLoop(function () {
-    camera.position.y=1;
+    camera.position.y=1 
     scene.render();
   });
 
