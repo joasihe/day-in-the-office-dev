@@ -2,11 +2,11 @@ var canvas = document.getElementById("canvas");
 var engine = new BABYLON.Engine(canvas, true);
 
 // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
-BABYLON.SceneLoader.Load("", "assets/bierensroom-new.babylon", engine, function (scene) {
+BABYLON.SceneLoader.Load("", "assets/sanderroom.babylon", engine, function (scene) {
   // Need a free camera for collisions
   var camera = new BABYLON.UniversalCamera(
     "FreeCamera",
-    new BABYLON.Vector3(-40, 1, -20),
+    new BABYLON.Vector3(-40, 10, 10),
     scene
   );
   camera.attachControl(canvas, true);
@@ -20,7 +20,7 @@ BABYLON.SceneLoader.Load("", "assets/bierensroom-new.babylon", engine, function 
 
   //Then apply collisions and gravity to the active camera
   camera.checkCollisions = true;
-  camera.applyGravity = false;
+  camera.applyGravity = true;
 
   //Set the ellipsoid around the camera (e.g. your player's size)
   camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
@@ -30,7 +30,7 @@ BABYLON.SceneLoader.Load("", "assets/bierensroom-new.babylon", engine, function 
   var light = new BABYLON.HemisphericLight("hemiLight", new BABYLON.Vector3(1, 10, 15), scene);
 
   engine.runRenderLoop(function () {
-    camera.position.y = 2;
+    camera.position.y = 1;
     scene.render();
   });
 
