@@ -7271,7 +7271,7 @@
 ,6759,6656,6552]
 ,"subMeshes":[{"materialIndex":0,"verticesStart":0,"verticesCount":6760,"indexStart":0,"indexCount":39936}]
 ,"instances":[]}
-,{"name":"Sphere.001","id":"Sphere.001","parentId":"Reviewbox","materialId":"Material.009","billboardMode":0,"position":[-2.8187,-1.3867,-76.9999],"rotationQuaternion":[0,0,-1,0],"scaling":[1,1,1],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":true,"receiveShadows":false,"pickable":true,"tags":"","physicsImpostor":8,"physicsMass":1,"physicsFriction":0.5,"physicsRestitution":0
+,{"name":"Sphere.001","id":"Sphere.001","parentId":"Reviewbox","materialId":"Material.009","billboardMode":0,"position":[-2.8187,-1.3867,-76.9999],"rotationQuaternion":[0,0,-1,0],"scaling":[1,1,1],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":false,"pickable":true,"tags":""
 ,"positions":[0,77,0,-2.5613,76.9574,0,-2.549,76.9574,-0.2511,0,77,0,-2.5121,76.9574,-0.4997,0,77,0,-2.4511,76.9574,-0.7435,0,77,0,-2.3664,76.9574,-0.9802,0,77,0,-2.2589,76.9574,-1.2074,0,77,0,-2.1297,76.9574,-1.423,0,77,0,-1.9799,76.9574,-1.6249,0,77,0,-1.8111,76.9574,-1.8111
 ,0,77,0,-1.6249,76.9574,-1.9799,0,77,0,-1.423,76.9574,-2.1297,0,77,0,-1.2074,76.9574,-2.2589,0,77,0,-0.9802,76.9574,-2.3664,0,77,0,-0.7435,76.9574,-2.4511,0,77,0,-0.4997,76.9574,-2.5121,0,77,0,-0.2511,76.9574,-2.549,0,77,0,0,76.9574,-2.5613,0,77,0
 ,0.2511,76.9574,-2.549,0,77,0,0.4997,76.9574,-2.5121,0,77,0,0.7435,76.9574,-2.4511,0,77,0,0.9802,76.9574,-2.3664,0,77,0,1.2074,76.9574,-2.2589,0,77,0,1.423,76.9574,-2.1297,0,77,0,1.6249,76.9574,-1.9799,0,77,0,1.8111,76.9574,-1.8111,0,77,0,1.9799,76.9574,-1.6249

@@ -7,76 +7,393 @@
     <!-- this link to the preview online version of BJS -->
     <script src="js/babylon.js"></script>
     <!-- this is needed for BJS to load scene files -->
-    <script src="js/babylonjs.loaders.js"></script>
+
+    <!-- Bootstrap Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style></style>
   </head>
 
   <body>
     <canvas id="canvas"></canvas>
     <script src="js/main.js"></script>
 
-    <div id="Stoel" style="
-    /* position: fixed;  */
-                           /* width: 100%;  */
-                           /* height: 700px;  */
-                           /* position: fixed;  */
-                           /* bottom: 0;  */
-                           /* left: 0;  */
-                           /* z-index: 1;  */
-
-                           color: black;
-                           background-color: white;
-                           visibility: hidden; 
-                           
-                           position: absolute;
-                           top: 50%;
-                           left: 50%;
-                           margin-top: -50px;
-                           margin-left: -100px;
-                           border-radius: 15px;
-                           padding: 20px 20px 20px 20px;
-
-                         "​>
-      <h1>De Bierens stoel!!</h1>
-      <p>Dit is DE stoel van Bierens</p>
-      <p>mooi he?</p>
+    <div
+      class="modal fade2"
+      id="burger"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <!-- Modal Close -->
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <!-- Modal Content -->
+          <div class="content-box">
+            <h1>De Burger</h1>
+            <p>
+              Ooit een advocatenkantoor van binnen gezien? De meeste mensen die
+              ons kantoor bezoeken zijn aangenaam verrast door de inrichting.
+              Want vaak wordt verwacht dat een advocatenkantoor erg stoffig en
+              ouderwets eruitziet. Dat is bij ons absoluut niet het geval. Wij
+              vinden een inspirerende en creatieve werkomgeving belangrijk voor
+              onze specialisten. Daarom hangt het vol met superhelden, hebben we
+              een batcave, een heuse Amerikaanse diner waar we kunnen lunchen,
+              een gameroom, een comic wall… Saai en stoffig is het dus zeker
+              niet!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="Zwaard" style="
-    /* position: fixed;  */
-                           /* width: 100%;  */
-                           /* height: 700px;  */
-                           /* position: fixed;  */
-                           /* bottom: 0;  */
-                           /* left: 0;  */
-                           /* z-index: 1;  */
-
-                           color: black;
-                           background-color: white;
-                           visibility: hidden; 
-                           
-                           position: absolute;
-                           top: 50%;
-                           left: 50%;
-                           margin-top: -50px;
-                           margin-left: -100px;
-                           border-radius: 15px;
-                           padding: 20px 20px 20px 20px;
-
-                         "​>
-      <h1>Het zwaard des gerechtigheid</h1>
-      <p>Met dit zwaard hakt Bierens alle concurenten en wanbetalers in de PAN.</p>
-      <p>*100% vegan & glutenvrij!!</p>
+    <div class="modal fade2" id="Torus" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Wereldbol</h1>
+            <p>
+              Heeft u een incasso op buitenlandse klanten? De procedures zijn in
+              elk land anders. Onze internationale advocaten hebben de kennis en
+              ervaring om uw zaak snel op te lossen. Wij hebben een team van
+              internationale incassospecialisten en advocaten die afkomstig zijn
+              uit de 20 grootste economieën in Europa. Zij hebben kennis van de
+              handelscultuur en de beste incassotactieken in hun land. Bovendien
+              spreken ze dezelfde taal als de debiteur. Op die manier weten zij
+              snel en efficiënt te incasseren bij buitenlandse klanten.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="schilderij" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Schilderij</h1>
+            <p>
+              In 1952 wordt met de oprichting van ‘Bierens Advocaten’ de basis
+              gelegd voor wat nu Bierens Incasso Advocaten is. Het bedrijf is
+              opgericht door Frits Bierens, de vader van huidige eigenaar Sander
+              Bierens. In die tijd worden klanten bijgestaan bij allerlei
+              juridische zaken zoals huurrechtzaken, bouwrechtzaken,
+              verkeerszaken, arbeidsrechtzaken, pachtzaken, faillissementen en
+              echtscheidingen. Maar ook incassozaken worden in die tijd al volop
+              gedaan. Deze worden dan nog met de hand opgeschreven in een
+              speciaal incassoschrift.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
- <div id="HUD" name="footer" style="position: fixed; 
-                                   width: 100%; 
-                                   height: 140px; 
-                                   position: fixed; 
-                                   bottom: 0; 
-                                   left: 0; 
-                                   z-index: 1; 
-                                   color: black;">    
-                                   Naam object:    
- </div>   
+    <div class="modal fade2" id="bin" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Prullenmand</h1>
+            <p>
+              Onze incasso advocaten kunnen meer middelen inzetten dan een
+              incassobureau. Ze hebben daarnaast ook zwaardere incassomiddelen.
+              Hierdoor zijn ze veel effectiever. Met een incasso advocaat staat
+              u daarom een stuk sterker. Je kan ook deze tabel gebruiken Bierens
+              Incasso Advocaten | Een wereld zonder wanbetalers
+              (bierensgroup.com)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="glasbol" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>De glazen bol</h1>
+            <p>
+              Klanttevredenheid staat centraal binnen Bierens. Met een score van
+              9.0/10 uit 929 klantbeoordelingen, proberen wij onze klanten zo
+              veel mogelijk te helpen. Wij proberen constant onze
+              dienstverlening te verbeteren. Voor klant reviews: Referenties -
+              Bierens Incasso Advocaten (bierensgroup.com)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade2" id="bierensboek" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>boek</h1>
+            <p>
+              Nadat u uw incassozaak heeft overdragen, gaan wij direct met uw
+              incassozaak aan de slag. De incassoprocedure is in te delen in
+              twee fases. Ons uitgangspunt is om altijd te starten in de
+              buitengerechtelijke fase, waarbij we de debiteur sommeren om de
+              openstaande facturen te betalen. Heeft dit niet het gewenste
+              effect? Dan kunnen we in overleg met u naar de rechter stappen om
+              alsnog de betaling van uw facturen af te dwingen.
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="lab2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Magic Formula</h1>
+            <p>
+              Over tarieven gesproken: wij incasseren op basis van No Cure No
+              Pay. Waar andere advocatenkantoren meestal werken op basis van een
+              uurtarief, kunnen wij onze diensten aanbieden op basis van No Cure
+              No Pay. Incasseren wij niet? Dan hoeft de klant geen kosten te
+              betalen voor onze werkzaamheden. Wij hanteren No Cure No Pay voor
+              elke buitengerechtelijke incassozaak, dus ook bij internationale
+              zaken. Dat is dus bijna in elke zaak die wij behandelen, want 95%
+              van alle incassozaken weten wij in de buitengerechtelijke fase op
+              te lossen. Is het toch nodig om gerechtelijke stappen te nemen?
+              Dan spreken wij vooraf een uurtarief of een fixed fee met u af.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="bierensdocument" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>portfolio</h1>
+            <p>...</p>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="volleybal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Vollybal</h1>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="tafel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>De tafel van Bierens</h1>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade2" id="spiegel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>...</h1>
+            <p>...</p>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade2"
+      id="Sphere"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Het zwaard des gerechtigheid</h1>
+            <p>
+              Iedere ondernemer moet hard werken voor zijn geld. Wanneer u een
+              product of dienst levert, mag u verwachten dat u daar ook voor
+              betaald krijgt. Helaas is dat in de praktijk niet altijd het
+              geval… <br /><br />
+              Facturen worden niet betaald, of veel te laat. Soms is dat zelfs
+              onderdeel van de cashflow: te laat betalen zodat bedrijven zelf
+              het geld langer bij zich kunnen houden. Maar dat de andere partij
+              dit geld ook nodig heeft, wordt voor het gemak maar even vergeten.
+              <br /><br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade2"
+      id="Sphere"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <!-- Modal body -->
+        <div class="modal-box">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            style="color: white; padding-right: 10px"
+          >
+            &times;
+          </button>
+          <div class="content-box">
+            <h1>Het zwaard des gerechtigheid</h1>
+            <p>
+              Iedere ondernemer moet hard werken voor zijn geld. Wanneer u een
+              product of dienst levert, mag u verwachten dat u daar ook voor
+              betaald krijgt. Helaas is dat in de praktijk niet altijd het
+              geval… <br /><br />
+              Facturen worden niet betaald, of veel te laat. Soms is dat zelfs
+              onderdeel van de cashflow: te laat betalen zodat bedrijven zelf
+              het geld langer bij zich kunnen houden. Maar dat de andere partij
+              dit geld ook nodig heeft, wordt voor het gemak maar even vergeten.
+              <br /><br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="HUD"
+      name="footer"
+      style="
+        position: fixed;
+        width: 100%;
+        height: 140px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        color: black;
+      "
+    ></div>
   </body>
 </html>
