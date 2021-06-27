@@ -4,7 +4,7 @@ var engine = new BABYLON.Engine(canvas, true);
 // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
 BABYLON.SceneLoader.Load(
   "",
-  "assets/sanderroom.babylon",
+  "assets/bierensroomfinal.babylon",
   engine,
   function (scene) {
     // Need a free camera for collisions
